@@ -1,0 +1,139 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:2:1-66:12
+	package
+		ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:5:5-30
+	android:versionCode
+		ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml
+application
+ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:11:5-64:19
+	android:label
+		ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:14:9-41
+	android:allowBackup
+		ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:12:9-35
+	android:icon
+		ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:13:9-46
+	android:theme
+		ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:15:9-40
+activity#com.example.refrigerator.Activity1
+ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:16:9-24:20
+	android:label
+		ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:18:13-45
+	android:name
+		ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:17:13-62
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:19:13-22:18
+action#android.intent.action.MAIN
+ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:20:3-55
+	android:name
+		ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:20:11-52
+category#android.intent.category.LAUNCHER
+ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:21:3-63
+	android:name
+		ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:21:13-60
+activity#com.example.refrigerator.SplashActivity
+ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:25:9-26:20
+	android:theme
+		ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:25:50-97
+	android:name
+		ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:25:19-49
+activity#com.example.refrigerator.Activity2
+ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:28:9-30:43
+	android:label
+		ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:30:13-31
+	android:name
+		ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:29:13-38
+activity#com.example.refrigerator.Activity3
+ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:32:9-34:43
+	android:label
+		ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:34:13-31
+	android:name
+		ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:33:13-38
+activity#com.example.refrigerator.Activity3_1
+ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:36:9-38:43
+	android:label
+		ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:38:13-31
+	android:name
+		ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:37:13-40
+activity#com.example.refrigerator.Activity4
+ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:40:9-42:34
+	android:label
+		ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:42:4-22
+	android:name
+		ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:41:4-29
+activity#com.example.refrigerator.Activity5
+ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:43:9-45:34
+	android:label
+		ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:45:4-22
+	android:name
+		ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:44:4-29
+activity#com.example.refrigerator.Note_Write
+ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:48:9-57
+	android:name
+		ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:48:19-45
+activity#com.example.refrigerator.Note_Save
+ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:49:9-56
+	android:name
+		ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:49:19-44
+activity#com.example.refrigerator.Notify
+ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:50:9-52
+	android:name
+		ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:50:19-40
+activity#com.example.refrigerator.conView
+ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:52:9-53
+	android:name
+		ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:52:19-41
+activity#com.example.refrigerator.Password
+ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:53:9-54
+	android:name
+		ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:53:19-42
+service#com.example.refrigerator.Note_Service
+ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:54:9-56
+	android:name
+		ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:54:18-45
+activity#com.example.refrigerator.question
+ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:55:9-55
+	android:name
+		ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:55:19-43
+activity#com.example.refrigerator.exclamation
+ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:56:9-58
+	android:name
+		ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:56:19-46
+activity#com.example.refrigerator.news_list
+ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:58:9-56
+	android:name
+		ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:58:19-44
+activity#com.example.refrigerator.sns_list
+ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:59:9-55
+	android:name
+		ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:59:19-43
+activity#com.example.refrigerator.news_list_viewer
+ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:60:9-63
+	android:name
+		ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:60:19-51
+activity#com.example.refrigerator.sns_list_viewer
+ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:61:9-62
+	android:name
+		ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:61:19-50
+activity#com.example.refrigerator.memo_list
+ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:63:9-56
+	android:name
+		ADDED from D:\Graduation\Graduation_project\app\src\main\AndroidManifest.xml:63:19-44

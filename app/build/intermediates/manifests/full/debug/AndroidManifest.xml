@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.refrigerator"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="14" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/main_picture"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.refrigerator.Activity1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.refrigerator.SplashActivity"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.example.refrigerator.Activity2"
+            android:label="정력" />
+        <activity
+            android:name="com.example.refrigerator.Activity3"
+            android:label="정력" />
+        <activity
+            android:name="com.example.refrigerator.Activity3_1"
+            android:label="정력" />
+        <activity
+            android:name="com.example.refrigerator.Activity4"
+            android:label="정력" />
+        <activity
+            android:name="com.example.refrigerator.Activity5"
+            android:label="정력" />
+        <activity android:name="com.example.refrigerator.Note_Write" />
+        <activity android:name="com.example.refrigerator.Note_Save" />
+        <activity android:name="com.example.refrigerator.Notify" />
+        <activity android:name="com.example.refrigerator.conView" />
+        <activity android:name="com.example.refrigerator.Password" />
+
+        <service android:name="com.example.refrigerator.Note_Service" />
+
+        <activity android:name="com.example.refrigerator.question" />
+        <activity android:name="com.example.refrigerator.exclamation" />
+        <activity android:name="com.example.refrigerator.news_list" />
+        <activity android:name="com.example.refrigerator.sns_list" />
+        <activity android:name="com.example.refrigerator.news_list_viewer" />
+        <activity android:name="com.example.refrigerator.sns_list_viewer" />
+        <activity android:name="com.example.refrigerator.memo_list" />
+    </application>
+
+</manifest>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/memoback"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="메모 제목 : "
+            />
+        <EditText
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:maxLength="10"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="294dp"
+        android:orientation="vertical" >
+
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="내용: "
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="11"
+            android:maxLength="100" />
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+	        <RadioGroup 
+	            android:id="@+id/group"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal">
+	            <RadioButton 
+		    	    android:id="@+id/radiobtn1"
+		    	    android:text="공개"
+		    	    android:checked="true"
+		    	    android:layout_marginRight="30dp"
+		    	    android:onClick="mOnClick"/>
+	            <RadioButton 
+		    	    android:id="@+id/radiobtn2"
+		    	    android:text="비공개    PW : "
+		    	    android:checked="false"
+		    	    android:onClick="mOnClick"/>
+	        </RadioGroup>
+	        <EditText 
+	            android:id="@+id/pw"
+	            android:password="true"
+	            android:maxLength="4"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="right">
+           <Button
+	            android:id="@+id/back"
+	            android:layout_width="80dp"
+	            android:layout_height="wrap_content"
+	            android:text="Back"
+	            android:onClick="mOnClick"/>
+           <Button
+	            android:id="@+id/save"
+	            android:layout_width="80dp"
+	            android:layout_height="wrap_content"
+	            android:text="Save"
+	            android:onClick="mOnClick"/>	
+	</LinearLayout>        
+</LinearLayout>

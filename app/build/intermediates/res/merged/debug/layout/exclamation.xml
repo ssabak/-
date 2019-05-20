@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0FFF0"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="&lt;!>\n제작 배경과 목적"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:background="#F5D08A"
+        android:id="@+id/textView14" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F4FFFF"
+        android:id="@+id/scrollView" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="&lt;제작 배경>\n
+&quot;국민들이 이 나라의 주인이 되는 때는 투표를 하는 하루뿐이다.&quot;\n
+내가 찍은 정치인 지금은 뭐하고 있나? 궁금할 때가 많습니다.\n
+혹은 젊은 세대의 경우 아예 관심이 없을지도 모릅니다.\n
+사용자들에게 좀 더 쉽고 가까운 방법으로 인해 ‘정치’에 대한 벽을 허물고, 이에 대한 지식을 습득할 기회를 제공하여 시민의식의 향상을 바랍니다.\n\n
+
+&lt;제작자>\n
+수원대학교 컴퓨터학과 4학년 IT(Icredible Team)\n
+프로그램 제작 : 이상엽, 지동근, 박우석\n
+자료조사: 박우석, 신상준\n
+디자인: 신상준\n\n
+
+&lt;프로그램>\n
+안드로이드\n "
+        android:id="@+id/textView2" />
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+    </LinearLayout>
+</LinearLayout><!-- From: file:/D:/Graduation/Graduation_project/app/src/main/res/layout/exclamation.xml -->

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0FFF0"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="&lt;?>\n정치와 우리나라 정치"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:background="#F5D08A"
+        android:id="@+id/textView15" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F4FFFF"
+        android:id="@+id/scrollView" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="
+우리나라의 정부 형태와 정치제도\n\n
+
+&lt;우리 나라 정부 형태의 변화 과정>\n
+대통령 국회 간선제 -> 대통령 직선제 -> 의원 내각제 -> 대통령 직선제 -> 대통령 간선제 -> 대통령 직선제\n\n\n
+
+&lt;우리나라 대통령제의 의원 내각제적 요소>\n
+1. 국무총리제\n
+2. 국무총리와 국무위원원의 국회 출석 발언권\n
+3. 국회의원의 국무위원 겸직가능\n
+4. 행정부의 법률안 제출권\n
+5. 국회의 국무총리와 국무위원에 대한 해임 건의권\n\n\n
+
+&lt;우리나라 정부 형태의 변화 과정>\n
+1948년 헌법개정 : 대통령 국회 간선제\n
+1952년 1차 개헌 : 대통령 직선제\n
+1954년 2차 개헌 : 초대 대통령에 한해 3선 제한 철폐\n
+1960년 3차 개헌 : 의원 내각제, 대통령 국회 간선제\n
+1962년 5차 개헌 : 대통령 직선제\n
+1969년 6차 개헌 : 대통령 직선제, 3선 허용\n
+1972년 7차 개헌 : 유신 체제, 대통령 간선제 (통일 주체 국민 회의에서 선출)\n
+1980년 8차 개헌 : 대통령 선거인단 간선제, 7년 단임제\n
+1987년 9차 개헌 : 대통령 직선제, 5년 단임제\n\n\n
+
+&lt;우리나라 대통령제의 특징>\n
+1) 특징:대통령제에 의원 내각제적 요소를 가미한 혼합형 정부 형태\n
+2) 의원 내각제적 요소\n
+    ① 국무총리제\n
+    ② 행정부의 법률안 제출권\n
+    ③ 국회의원의 국무 위원 겸직 가능\n
+    ④ 국회의 국무총리와 국무 위원에 대한 해임 건의권\n
+    ⑤ 국무총리와 국무 위원의 국회 출석 발언권\n
+3) 우리나라 대통령제에 대한 평가\n
+   장점 : 대통령의 임기 동안 지속적이고 강력한 정책 수행 가능\n
+   단점 : 임기 후반에 정책의 연속성이 떨어짐\n\n\n
+
+&lt;국무총리제 란?>\n
+순수 대통령제에서 대통령은 국가 원수이자 행정부 수반이므로 내각을 관장하는 총리는 불필요함. 그러나 우리나라는 대통령을 보좌하고 행정 각 부를 총괄하는 국무총리를 두고 있음.\n\n
+
+&lt;국무위원 이란?>\n
+행정부 최고 심의 기관인 국무 회의의 구성원으로 대통령을 보좌하고 국가의 주요 정책을 심의 하며 대통령의 권한 남용을 통제하는 구실을 함. (행정 각 부의 장관+정무 장관 (현재는 없음))\n\n\n
+
+&lt;우리나라의 선거제도>\n
+선출 제도: 보통선거, 평등선거, 직접선거, 비밀선거\n
+대통령 선거: 상대 다수대표제\n
+국회의원 선거: 소선거구 상대 다수 대표제 246석 + 정당 명부기재 식 비례대표 54석\n
+지자체 선거:\n
+  -일반\n
+    =광역(도+광역시, 특별시..)장: 상대 다수 대표제/의원: 지역구(다수)+비례\n
+    =기초(시군+자치구..)장: 상대 다수 대표제/의원: 지역구(소수)+비례\n
+  -특별: 교육감 선거( 다수 대표제)\n
+소선거구제도: 작은 1선거구당 1명 선출\n
+중대선거구제도: 큰 1선거구당 2~4명 선출\n
+다수대표제: 상대다수(무조건 득표 많은 사람)+절대다수(과반수or선호도)\n
+소수대표제: 득표순대로 여러 명 선출\n
+비례대표제: 득표율과 의석률을 1:1 관계로 만들기 위한 제도, 정당 득표율에 따라 선출
+직능대표제: 여러 가지 직능별 단체 즉 교육계와 산업계 그리고 문화계 등의 단체를 선거의 모체로 하여 일정한 수의 의원을 선출하는 방법\n
+
+
+
+
+
+            "
+            android:id="@+id/textView3" />
+        />
+
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/D:/Graduation/Graduation_project/app/src/main/res/layout/question.xml -->
